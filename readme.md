@@ -65,6 +65,9 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 **Screenshot(s):**
 
 ![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/ss_home.png)
+
+en
+
 ![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/ss_menu.png)
 
 **Breakdown-schets(en):**
