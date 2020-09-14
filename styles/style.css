@@ -1,5 +1,153 @@
 /* CSS Document */
-*, *::after, *::before {
-  box-sizing:border-box;  
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
 }
 
+h1 {
+	font-family: ambroise-std, serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 23px;
+	color: #222222;
+	line-height: 68.6px;
+	letter-spacing: 1.96px;
+}
+
+/* LOGO */
+h3 {
+	font-family: ambroise-std, serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 19px;
+	color: #222222;
+	line-height: 19px;
+	letter-spacing: 5.7px;
+}
+
+p {
+	font-family: calluna, serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	color: #000000;
+	line-height: 34.5px;
+	letter-spacing: 0.45px;
+}
+/* LOGO */
+
+strong {
+	font-family: calluna, serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 15px;
+	color: #000000;
+	line-height: 34.5px;
+	letter-spacing: 0.45px;
+}
+
+/* BUTTON */
+.btn {
+	font-family: calluna, serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 13px;
+	color: #000000;
+	line-height: 34.5px;
+	letter-spacing: .35em;
+	text-transform: uppercase;
+
+	text-decoration: none;
+	padding: 13px 26px;
+	border: 2px solid #333;
+	border-radius: 3px;
+}
+
+.btn:hover {
+	background-color: #333;
+	color: white;
+}
+/* BUTTON */
+
+/* LINK */
+.link {
+	font-family: calluna, serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	color: #9c9c9c;
+	line-height: 34.5px;
+	letter-spacing: 0.45px;
+	text-decoration: none;
+}
+
+.link:hover {
+	color: #000000;
+}
+/* LINK */
+
+/* NAV-LINK */
+.nav-link {
+	font-family: calluna, serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	color: #222222;
+	line-height: 34.5px;
+	letter-spacing: 0.45px;
+	text-decoration: none;
+}
+
+.nav-link:hover {
+	color: #f7933b;
+}
+/* NAV LINK */
+
+/* MOBILE */
+@media only screen and (max-width: 600px) {
+	/* header */
+	header {
+		display: flex;
+		width: 100%;
+		height: 100%;
+
+		padding-bottom: 100px;
+	}
+
+	nav {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+		width: 100%;
+		height: 100%;
+		padding: 15px 0;
+		margin: 0 11.25px;
+	}
+
+	.fa-twitter {
+		margin-right: 10px;
+	}
+
+	.fa-instagram {
+		margin-right: 20px;
+	}
+
+	nav i {
+		color: #222222;
+	}
+	/* end of header */
+
+	/* main */
+	main {
+		padding: 0 22px;
+	}
+
+	main h1 {
+		text-align: center;
+	}
+	/* end of main */
+}
