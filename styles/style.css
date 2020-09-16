@@ -173,12 +173,14 @@ strong {
 body {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
-	grid-template-rows: repeat(4, auto);
+	grid-template-rows: repeat(5, auto);
 	grid-template-areas: 
 		'nav nav nav' 
 		'header header header' 
 		'main main main' 
-		'footer footer footer';
+		'footer footer footer'
+		'footer-menu footer-menu footer-menu'
+	;
 	gap: 0.5em;
 	text-align: center;
 	position: relative;
@@ -187,15 +189,17 @@ body {
 nav {
 	grid-area: nav;
 	height: 85px;
-	background-color: #f2f2f2;
-	position: sticky;
-	top: 0;
+	background-color: #f7f7f7;
+	/* position: sticky;
+	top: 0; */
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 header {
 	grid-area: header;
-	/* height: 250px;
-	background-color: #f2f2f2; */
 
 	display: flex;
 	justify-content: center;
@@ -291,27 +295,56 @@ footer {
 		'footer-1 footer-2 footer-3';
 	gap: 0.5em;
 	grid-area: footer;
+
+	padding: 70px 0;
+	margin: 0 70px;
+	border-top: 1px solid #e1e1e1;
 }
 
 #footer-1 {
 	grid-area: footer-1;
-	height: 400px;
-	background-color: #f2f2f2;
+	
+	display: flex;
+	justify-content: start;
+	align-items: center;
+	flex-direction: column;
 }
 
 #footer-2 {
 	grid-area: footer-2;
-	height: 400px;
-	background-color: #f2f2f2;
+	
+	display: flex;
+	justify-content: start;
+	align-items: center;
+	flex-direction: column;
 }
 
 #footer-3 {
 	grid-area: footer-3;
-	height: 400px;
-	background-color: #f2f2f2;
+
+	display: flex;
+	justify-content: start;
+	align-items: center;
+	flex-direction: column;
+}
+
+#footer-menu {
+	grid-area: footer-menu;
+
+	height: 100vh;
+
+	background-image: url(../images/ss_home.png);
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 @media only screen and (max-width: 550px) {
+	h2 {
+		font-size: 23px;
+	}
+
 	main {
 		display: grid;
 		grid-template-columns: 1fr;
@@ -335,9 +368,23 @@ footer {
 			'footer-2'
 			'footer-3'
 		;
+		padding: 50px 0;
+		margin: 0 50px;
 	}
 
 	#image-devider img {
 		width: 100%;
+	}
+
+	#footer-1 {
+		padding: 30px;
+	}
+
+	#footer-2 {
+		padding: 30px;
+	}
+
+	#footer-3 {
+		padding: 30px;
 	}
 }
