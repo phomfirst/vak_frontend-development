@@ -65,6 +65,7 @@ strong {
 	padding: 5px 26px;
 	border: 2px solid #333;
 	border-radius: 3px;
+	transition: 0.3s;
 }
 
 .btn:hover {
@@ -83,6 +84,7 @@ strong {
 	line-height: 34.5px;
 	letter-spacing: 0.45px;
 	text-decoration: none;
+	transition: 0.3s;
 }
 
 .link:hover {
@@ -292,7 +294,8 @@ footer {
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-template-rows: auto;
 	grid-template-areas: 
-		'footer-1 footer-2 footer-3';
+		'footer-1 footer-2 footer-3'
+	;
 	gap: 0.5em;
 	grid-area: footer;
 
@@ -376,15 +379,7 @@ footer {
 		width: 100%;
 	}
 
-	#footer-1 {
-		padding: 30px;
-	}
-
-	#footer-2 {
-		padding: 30px;
-	}
-
-	#footer-3 {
-		padding: 30px;
+	.footer {
+		padding: 30px 0;
 	}
 }
