@@ -36,7 +36,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Stand van zaken
 
--dit ging goed & dit was lastig-
+Ik was bezig met het menu pagina. Ik wilde dit gaan stylen met flexbox. Al snel werd dit lastig op het ook responsive te maken omdat de website een 3 column grid had. Daarom begon ik research te doen naar "display: grid". Ook ging ik kijken hoe je met GRID een responsive website kan coderen/stylen. Uiteindelijk is het mij gelukt om de hele pagina de coderen die ook responsive is. Alleen de navigatie moet ik coderen. Ik moet nog iets meer onderzoek doen naar hoe je een responsive hamburger menu kan maken. Ook wil ik gaan kijken wat mijn alternatieven zijn voor de hamburger menu. 
 
 **Screenshot(s):**
 
@@ -44,11 +44,12 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Agenda voor meeting
 
--samen met je groepje opstellen-
+1. Vragen hoe je een responsive website maakt
+2. Technische vragen over hoe je een functie moet coderen/stylen.
 
 ### Verslag van meeting
 
--na afloop snel uitkomsten vastleggen-
+Tijdens de meeting heb ik handige tips gekregen over de vragen die wij als groepje hadden. Ik heb ook tips en verbeterpunten gekregen over mijn code.
 
 
 
