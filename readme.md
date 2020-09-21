@@ -41,6 +41,9 @@ Ik was bezig met het menu pagina. Ik wilde dit gaan stylen met flexbox. Al snel 
 **Screenshot(s):**
 
 ![Desktop versie](images/voortgang_1_ss_1.png)
+![Mobiele versie](images/voortgang_1_ss_2.png)
+![Desktop Footer](images/voortgang_1_ss_3.png)
+![Desktop Footer Paralax Effect](images/voortgang_1_ss_4.png)
 
 ### Agenda voor meeting
 
