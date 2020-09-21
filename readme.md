@@ -40,7 +40,7 @@ Ik was bezig met het menu pagina. Ik wilde dit gaan stylen met flexbox. Al snel 
 
 **Screenshot(s):**
 
--screenshot(s) van hoe ver je bent-
+![Desktop versie](images/voortgang_1_ss_1.png)
 
 ### Agenda voor meeting
 
