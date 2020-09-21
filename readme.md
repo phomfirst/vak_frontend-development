@@ -39,10 +39,13 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 Ik was bezig met het menu pagina. Ik wilde dit gaan stylen met flexbox. Al snel werd dit lastig op het ook responsive te maken omdat de website een 3 column grid had. Daarom begon ik research te doen naar "display: grid". Ook ging ik kijken hoe je met GRID een responsive website kan coderen/stylen. Uiteindelijk is het mij gelukt om de hele pagina de coderen die ook responsive is. Alleen de navigatie moet ik coderen. Ik moet nog iets meer onderzoek doen naar hoe je een responsive hamburger menu kan maken. Ook wil ik gaan kijken wat mijn alternatieven zijn voor de hamburger menu. 
 
 **Screenshot(s):**
-
+#### Desktop versie
 ![Desktop versie](images/voortgang_1_ss_1.png)
+#### Mobiele versie
 ![Mobiele versie](images/voortgang_1_ss_2.png)
+#### Desktop Footer
 ![Desktop Footer](images/voortgang_1_ss_3.png)
+#### Desktop Footer Paralax Effect
 ![Desktop Footer Paralax Effect](images/voortgang_1_ss_4.png)
 
 ### Agenda voor meeting
