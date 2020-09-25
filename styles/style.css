@@ -39,7 +39,7 @@ p {
 }
 /* LOGO */
 
-strong {
+h4 {
 	font-family: calluna, serif;
 	font-style: normal;
 	font-weight: 700;
@@ -85,6 +85,7 @@ strong {
 	letter-spacing: 0.45px;
 	text-decoration: none;
 	transition: 0.3s;
+	cursor: pointer;
 }
 
 .link:hover {
@@ -130,8 +131,8 @@ nav {
 	grid-area: nav;
 	height: 85px;
 	background-color: #f7f7f7;
-	/* position: sticky;
-	top: 0; */
+	position: sticky;
+	top: 0;
 
 	display: flex;
 	justify-content: center;
@@ -154,6 +155,10 @@ header strong {
 	margin-top: 40px;
 }
 
+
+
+
+/* MAIN */
 main {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
@@ -163,7 +168,6 @@ main {
 		'image-devider image-devider image-devider'
 		'menu-dessert menu-dessert menu-dessert' 
 		'cta cta cta';
-	gap: 0.5em;
 	grid-area: main;
 }
 
@@ -175,12 +179,20 @@ main {
 	margin-top: 30px;
 }
 
-.menu strong {
+.menu h4 {
 	margin-bottom: 40px;
 }
 
-.menu p {
-	margin: 20px 0;
+.dish {
+	margin-bottom: 35px;
+}
+
+.tasting-menu {
+	margin-top: 45px;
+}
+
+.extra-menu p:nth-child(3) {
+	margin-top: 30px;
 }
 
 #menu-garden {
@@ -195,6 +207,10 @@ main {
 	grid-area: menu-land;
 }
 
+
+
+
+/* IMAGE */
 #image-devider {
 	grid-area: image-devider;
 
@@ -209,6 +225,9 @@ main {
 	width: 90%;
 }
 
+
+
+/* DESSERT MENU */
 #menu-dessert {
 	grid-area: menu-dessert;
 }
@@ -226,6 +245,9 @@ main {
 
 	margin: 100px 0;
 }
+
+
+
 
 footer {
 	display: grid;
@@ -260,6 +282,10 @@ footer {
 	flex-direction: column;
 }
 
+#footer-2 h2 {
+	margin-bottom: 40px;
+}
+
 #footer-3 {
 	grid-area: footer-3;
 
@@ -274,16 +300,25 @@ footer {
 
 	height: 100vh;
 
-	background-image: url(../images/ss_home.png);
-	background-attachment: fixed;
+	/* background-image: url(../images/ss_home.png); */
+	background-color: #f7933b;
+	/* background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: cover; */
 }
+
+
+
 
 @media only screen and (max-width: 550px) {
 	h2 {
 		font-size: 23px;
+	}
+
+	header {
+		margin-top: 40px;
+		margin-bottom: 30px;
 	}
 
 	main {
@@ -300,6 +335,18 @@ footer {
 		;
 	}
 
+	.extra-menu {
+		margin-bottom: 20px;
+	}
+
+	#image-devider img {
+		width: 100%;
+	}
+
+	#menu-dessert {
+		margin-top: 0;
+	}
+
 	footer {
 		display: grid;
 		grid-template-columns: 1fr;
@@ -313,11 +360,11 @@ footer {
 		margin: 0 50px;
 	}
 
-	#image-devider img {
-		width: 100%;
-	}
-
 	.footer {
 		padding: 30px 0;
+	}
+
+	#footer-2 h2 {
+		margin-bottom: 0;
 	}
 }
