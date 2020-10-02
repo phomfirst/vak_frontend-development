@@ -32,6 +32,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 1. Als je scrolt, hoe krijg je dat elementen effecten krijgen zoasl van links naar rechts of de opacity.
 2. Hoe krijg ik een paralax effect met met ipv een afbeelding, een section met content en buttons.
+3. Verander de kleur van de navigatie-tekst als de achtergrond donker wordt.
 
 
 
