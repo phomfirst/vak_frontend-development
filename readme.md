@@ -28,7 +28,10 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 2 (week 5)
 
--same as voortgang 1-
+### Agenda voor meeting
+
+1. Als je scrolt, hoe krijg je dat elementen effecten krijgen zoasl van links naar rechts of de opacity.
+2. Hoe krijg ik een paralax effect met met ipv een afbeelding, een section met content en buttons.
 
 
 
