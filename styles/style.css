@@ -11,6 +11,11 @@ html {
 	font-size: 1em;
 }
 
+nav a {
+	text-decoration: none;
+	color: #000000;
+}
+
 h1 {
 	font-family: ambroise-std, serif;
 	font-style: normal;
