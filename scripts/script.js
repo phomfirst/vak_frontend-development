@@ -1,14 +1,18 @@
-// JavaScript Document
+var openMenuEl = document.querySelector(".nav-menu");
+var menuBtnOpen = document.querySelector(".menuBtn")
+var menuBtnClose = document.querySelector(".hamburger-icon-close")
 
-var navBtn = document.querySelector('.menu-btn');
+// console.log(openMenu);
 
-function navBar() {
-    var x = document.querySelector('.nav-menu');
-    if (x.style.display === "none") {
-      x.style.display = "block";
-    } else {
-      x.style.display = "none";
-    }
-  }
+function openMenu() {
+  openMenuEl.classList.add("nav-menu-open");
+}
 
-navBtn.addEventListener('click', navBar);
+function closeMenu() {
+  openMenuEl.classList.remove("nav-menu-open");
+}
+
+
+menuBtnOpen.addEventListener("click", openMenu);
+menuBtnClose.addEventListener("click", closeMenu);
+

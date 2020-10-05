@@ -1,0 +1,143 @@
+*, html, body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    line-height: 1;
+}
+
+/* || Home Body */
+#home-body {
+    width: 100%;
+    height: 100vh;
+    background-image: url(/images/home-background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 0.8em;
+    padding: 0.5em 0;
+}
+
+nav .nav-right {
+    display: flex;
+    align-items: center;
+}
+
+
+
+/* || Site Title */
+h1 {
+    font-family: ambroise-std, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2em;
+    line-height: 1.2em;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+}
+
+h1 > a {
+    text-decoration: none;
+    color: #fff;
+    padding-right: 4em;
+}
+
+h1 > a.open {
+    text-decoration: none;
+    color: #000;
+    padding-right: 4em;
+}
+
+
+
+
+/* || Social Icons */
+#twitter-icon {
+    height: 2.2em;
+    margin-right: -0.5em;
+}
+#twitter-path {
+    fill: #fff;
+}
+#instagram-icon {
+    height: 2.2em;
+    margin-right: 1.2em;
+}
+#instagram-path {
+    fill: #fff;
+}
+
+.hamburger-icon {
+    stroke: #fff;
+    stroke-width: 2px;
+    height: 1.1em;
+    cursor: pointer;
+}
+
+/* opened */
+#twitter-icon-open {
+    height: 2.2em;
+    margin-right: -0.5em;
+}
+#twitter-path-open {
+    fill: #000;
+}
+#instagram-icon-open {
+    height: 2.2em;
+    margin-right: 25px;
+}
+#instagram-path-open {
+    fill: #000;
+}
+
+.hamburger-icon-close {
+    stroke: #000;
+    stroke-width: 2px;
+    height: 1.1em;
+    cursor: pointer;
+}
+
+
+
+/* || Nav Menu */
+.nav-menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+
+    background-color: #fff;
+    transition: 0.3s;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.nav-menu-open {
+    opacity: 1;
+    visibility: visible;
+}
+
+.nav-open {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 0.8em;
+    padding: 0.5em 0;
+}
+
+.nav-menu ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    height: 80vh;
+}
