@@ -5,6 +5,26 @@
     line-height: 1;
 }
 
+li {
+    list-style: none;
+}
+
+.nav-link {
+	font-family: calluna, serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 1.4em;
+	color: #222222;
+	line-height: 3em;
+	letter-spacing: 0.45px;
+	text-decoration: none;
+	list-style: none;
+}
+
+.nav-link:hover {
+	color: #f7933b;
+}
+
 /* || Home Body */
 #home-body {
     width: 100%;
