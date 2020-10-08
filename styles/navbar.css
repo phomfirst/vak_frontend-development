@@ -189,23 +189,26 @@ main {
 }
 
 main > p {
-    margin: 0 2em;
+    margin: 0 3em;
+    /* width: 50vh; */
 }
 
 .main-menu {
+    display: flex;
+    flex-direction: row;
+    x
     padding-top: 1em;
+
 }
 
 .main-menu-link {
-    margin: 0 0.2em;
-
     font-family: ambroise-std, serif;
     font-style: normal;
     font-weight: 400;
     font-size: 2.2em;
     color: #fff;
     line-height: 1.2em;
-    letter-spacing: 0.1em;
+    letter-spacing: 1px;
     text-decoration: none;
     text-transform: uppercase;
     text-align: center;
